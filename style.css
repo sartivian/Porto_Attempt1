@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: #3A6D8C;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -11,20 +11,22 @@ body{
     justify-content: space-around;
     align-items: center;
     border: 2px solid black;
-    background-color: white;
-    box-shadow: 3px 10px gray;
+    background-color: #001F3F;
+    color:#EAD8B1;
 }
 .navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-arounds;
+    justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 70px;
+    
 }
 
-a {
+.avatar, a {
     text-decoration: none;
-    color: black;
+    color: #EAD8B1;
+    font-size: 28px;
 }
 
 
@@ -32,11 +34,40 @@ a {
 
 /* Main Section Styling*/
 h1 {
-    color: #FFF5CD;
-    text-shadow: 2px 2px #FFCFB3;
+    color: #EAD8B1;
+    text-shadow: 2px 2px black;
+    font-size: 80px;
+}
+
+h2 {
+    color: white;
 }
 
 ul {
     list-style-type: none;
 }
 
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    width: 2000px;
+}
+
+.section1 .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1500px;
+    height: 700px;
+    background-color: #001F3F;
+}
+
+img {
+    width: 700px;
+    height: 700px;
+}
