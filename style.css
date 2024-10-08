@@ -55,6 +55,7 @@ ul {
     padding: 50px;
     gap: 50px;
     width: 2000px;
+    flex: 1 1 auto;
 }
 
 .section1 .hero {
@@ -62,7 +63,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 1500px;
+    width: 1300px;
     height: 700px;
     background-color: #001F3F;
 }
