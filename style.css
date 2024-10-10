@@ -77,10 +77,11 @@ img {
 /* Section2 Styling*/
 .section2 {
     display: flex;
-    flex-direction: column;
+   
     justify-content: space-between;
     align-items: center;
-    padding: 50px
+    padding: 50px;
+    background-color: #EAD8B1;
 }
 
 .portocontainer {
