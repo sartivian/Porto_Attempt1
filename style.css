@@ -97,10 +97,22 @@ img {
     width: 200px;
     height: 200px;
     border: 5px solid navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Section3 Styling */
 .section3 {
     background-color: #001F3F;
+    color: #EAD8B1;
 }
 
+.section3 p, .footer p {
+    color: #EAD8B1;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: navy;
+}
