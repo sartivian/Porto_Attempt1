@@ -123,6 +123,16 @@ ul {
     color: #EAD8B1;
 }
 
+.intro {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Footer Styling */
 .footer {
     background-color: navy;
