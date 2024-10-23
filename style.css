@@ -101,7 +101,7 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     gap: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .portocontainer div {
@@ -116,7 +116,8 @@ ul {
 /* Section3 Styling */
 .section3 {
     background-color: #001F3F;
-    color: #EAD8B1;
+    color:  #EAD8B1;
+    padding: 30px;
 }
 
 .section3 p, .footer p {
